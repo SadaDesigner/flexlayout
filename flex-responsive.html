@@ -1,0 +1,120 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+
+</head>
+<style>
+    * {
+        margin:0px;
+        padding: 0px;
+    }
+    body {
+        display: flex;
+    }
+    .container {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: column;
+       
+    }
+header {
+    background-color: #444444;
+    height: 56px;
+    display: flex;
+  
+}
+.one {
+ 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.one div {
+        flex:1;
+    background-color: brown;
+    margin: 15px;
+    height: 200px;
+}
+.two {
+    display: flex;
+}
+.two div {
+    flex:1;
+    background-color: chocolate;
+    margin: 15px;
+    height: 150px;
+}
+.three {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    
+}
+.three div {
+    flex-basis:45%;
+    background-color: cornflowerblue;
+    color: white;
+   
+}
+
+footer {
+    display: flex;
+    background-color: #999999;
+    flex-grow: 1;
+
+}
+
+@media only screen and (max-width: 576px ) {
+    .one, .two{
+        display: block;
+    }
+
+    .three {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .three div {
+        flex-basis: 48%;
+        margin: 5px 0px;
+    }
+
+} 
+
+</style>
+
+<body>
+
+    <div class="container">
+        <header>HEADER</header>
+        <section class="one">
+            <div></div>
+            <div></div>
+        </section>
+
+
+        <section class="two">
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="three">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </section>
+        <footer>FOOTER </footer>
+    </div>
+</body>
+</html>
